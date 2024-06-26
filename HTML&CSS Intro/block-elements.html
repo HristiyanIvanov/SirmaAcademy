@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Block Elements</title>
+  </head>
+  <body>
+    <header style="border: 1px solid">
+      <h1>This is a header</h1>
+      <nav style="border: 1px solid blue">This a nav element in the header</nav>
+    </header>
+    <div class="container" style="border: 1px solid">
+      <p>This is a container</p>
+      <div
+        style="
+          display: grid;
+          grid-template-columns: 1fr 3fr;
+          gap: 10px;
+          height: 300px;
+        "
+      >
+        <menu style="border: 1px solid orange"> This is a menu </menu>
+        <article style="border: 1px solid green">This is an article</article>
+      </div>
+    </div>
+    <footer style="border: 1px solid red">This is a footer</footer>
+  </body>
+</html>
