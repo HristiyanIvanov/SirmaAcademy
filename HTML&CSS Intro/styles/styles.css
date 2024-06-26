@@ -1,0 +1,125 @@
+h1 {
+  color: blue;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+#paragraph-1 {
+  background-color: yellow;
+  color: blue;
+  font-style: italic;
+  font-weight: bold;
+  text-align: right;
+  border: 2px solid black;
+}
+
+#paragraph-2 {
+  background-color: bisque;
+  color: green;
+  font-style: italic;
+  font-weight: bold;
+  text-align: right;
+  border: 2px dotted green;
+}
+#paragraph-3 {
+  background-color: pink;
+  color: red;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.learn {
+  background-color: orange;
+  border: 2px solid darkorange;
+  border-radius: 999px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.learn:hover {
+  background-color: darkorange;
+  transition: 0.5s;
+}
+
+/* 21. CSS Typography: Text Alignment */
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+}
+
+/* 22. CSS Typography: Line Height */
+.p-lineheight {
+  line-height: 2;
+}
+
+/* 27. CSS Background: Background Image */
+.header {
+  background-image: url("../img/pic1.jpeg");
+  background-size: 100% 100%;
+  background-position: center;
+  text-align: center;
+  padding: 250px;
+}
+
+.footer {
+  background-image: url("../img/pexels-martinkirigua-2259997.jpg");
+  background-size: cover;
+  background-position: bottom;
+  text-align: center;
+  padding: 250px;
+  color: white;
+}
+
+.hover-link {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 20px;
+  color: white;
+  background-color: blue;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.hover-link:hover {
+  background-color: darkblue;
+}
+
+.hover-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 20px;
+  color: white;
+  background-color: green;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hover-button:hover {
+  background-color: darkgreen;
+}
+
+.styled-paragraph {
+  margin: 20px 0;
+  font-size: 1.2em;
+  line-height: 1.4;
+}
+
+.styled-paragraph::first-line {
+  font-weight: bold;
+  color: red;
+  font-size: 1.6em;
+}

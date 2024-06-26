@@ -1,0 +1,116 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.2;
+}
+
+nav {
+  border: 1px solid;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: 0 auto;
+}
+
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+nav ul li a {
+  text-decoration: none;
+  display: block;
+  color: #999;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+nav ul li.active a {
+  color: #fb923c;
+}
+
+nav ul li a:hover {
+  color: #f97316;
+  transition: 0.5s;
+}
+
+.searchbox {
+  padding: 10px;
+}
+
+.searchbox input {
+  padding: 5px;
+  width: 200px;
+  font-size: 1.2rem;
+  border: 2px solid #f97316;
+  border-radius: 10px;
+  outline: none;
+}
+.searchbox .btn {
+  padding: 5px 10px;
+  margin-left: 10px;
+  outline: none;
+  border: 2px solid #f97316;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #fb923c;
+}
+
+.searchbox .btn:hover {
+  background-color: #999;
+  color: #fff;
+  transition: 0.5s;
+  border: 2px solid #777;
+  cursor: pointer;
+}
+
+#navbar {
+  background-color: #fb923c;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#navbar ul li a {
+  color: #fff;
+}
+
+#navbar ul li a:hover {
+  color: #f97316;
+  transition: 0.5s;
+}
+
+#navbar ul li.active a {
+  color: #888;
+}
+#navbar #searchbox input {
+  border: 2px solid #fff;
+  border-radius: 10px;
+  padding: 5px 10px;
+  font-size: 1.2rem;
+  outline: none;
+}
+
+#navbar #searchbox .btn {
+  border: 2px solid #fff;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #fb923c;
+  padding: 5px 10px;
+}
+
+#navbar #searchbox .btn:hover {
+  background-color: #fff;
+  color: #f97316;
+  transition: 0.5s;
+  border: 2px solid #f97316;
+  cursor: pointer;
+}
